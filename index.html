@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>educ. purpose</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="input">
+    <div class="timein">
+      <label for="timein">ᴛɪᴍᴇɪɴ</label>
+      <input oninput="checker()" type="time" id="timein"/>
+    </div>
+    <div class="timeout">
+      <label for="timeout">ᴛɪᴍᴇᴏᴜᴛ</label>
+      <input oninput="checker()" type="time" id="timeout"/>
+    </div>
+  </div>
+  <div class="btnDiv">
+    <button class="btn" onclick="addTime()">set</button>
+  </div>
+  <div>
+    <div class="time">
+      <p>Total Timein: </p>
+      <p id="total"></p>
+    </div>
+    <div class="out">
+      <div class="scroll">
+        <p id="input_text"></p>
+        <ol id="ul"></ol>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

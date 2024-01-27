@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 20px 0;
+}
+.timein, .timeout{
+  display: flex;
+  flex-direction: column;
+}
+.time{
+  display: flex;
+  margin-left: 22px;
+}
+#total{
+  margin-left: 20px;
+}
+ol {
+  display: flex;
+  flex-direction: column-reverse;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+.scroll{
+  height: 500px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+.input{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  width: 100%;
+}
+.btnDiv{
+  display: flex;
+  padding: 0 22px;
+  margin-top: 22px;
+}
+input, button{
+  height: 25px;
+}
+.out{
+  padding: 0 12px;
+}
